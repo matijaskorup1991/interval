@@ -29,7 +29,7 @@ function startMinCountdown() {
     $('#time').innerHTML = `${min < 10 ? `0${min}` : min}: ${
       sec < 10 ? `0${sec}` : sec
     }`;
-  }, 100);
+  }, 1000);
 }
 
 function pauseMinCountdown() {
